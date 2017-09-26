@@ -1,2 +1,3 @@
-Lixo
-lixoso
+Lixo;
+lixoso;
+asa;
