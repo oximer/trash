@@ -9,3 +9,4 @@ gulp.task('updateGit', cb => {
 });
 
 gulp.task('post-commit', ['updateGit']);
+gulp.task('post-merge', ['updateGit']);
