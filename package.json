@@ -1,0 +1,23 @@
+{
+  "name": "trash",
+  "version": "1.0.0",
+  "description": "trash code",
+  "main": "lixo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oximer/trash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oximer/trash/issues"
+  },
+  "homepage": "https://github.com/oximer/trash#readme",
+  "devDependencies": {
+    "git-guppy": "^2.1.0",
+    "gulp": "^3.9.1"
+  }
+}
