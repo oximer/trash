@@ -8,5 +8,10 @@ gulp.task('updateGit', cb => {
   });
 });
 
+gulp.task('teste', cb => {
+  cb();
+});
+
+gulp.task('pre-commit', ['teste']);
 gulp.task('post-commit', ['updateGit']);
 gulp.task('post-merge', ['updateGit']);
