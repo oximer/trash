@@ -9,21 +9,21 @@ gulp.task('updateGit', cb => {
   });
 });
 
-gulp.task('pre-commit', cb => {
-  console.log('pre-commit');
+gulp.task('pre-commit2', cb => {
+  console.log('pre-commit2');
   cb();
 });
 
-gulp.task('post-commit', cb => {
-  console.log('post-commit');
+gulp.task('post-commit2', cb => {
+  console.log('post-commit2');
   cb();
 });
 
-gulp.task('post-merge', cb => {
-  console.log('post-merge');
+gulp.task('post-merge2', cb => {
+  console.log('post-merge2');
   cb();
 });
 
-gulp.task('pre-commit', ['pre-commit']);
-gulp.task('post-commit', ['post-commit']);
-gulp.task('post-merge', ['post-merge']);
+gulp.task('pre-commit', ['pre-commit2']);
+gulp.task('post-commit', ['post-commit2']);
+gulp.task('post-merge', ['post-merge2']);
